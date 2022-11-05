@@ -1,19 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Graph
-{
-    map<int,list<int>> g;
-    public:
-    queue<int> qe;
-    int vi[10]={-1};
-    void BFS(int src){
-        qe.push(src);
-        
-        while(!qe.empty())
-        {
-            int y = qe.front();
-            qe.pop();
             vi[y+1]=1;
              cout<<y<<" ";
          for(auto x:g[y])
