@@ -5,6 +5,31 @@ class Graph
 {
     map<T, list<T>> g;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public:
     void Addedge(T x, T y)
     {
